@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePermutation", "ModularChallenge\AbsolutePermutation.csproj", "{13947151-54ED-407D-9B08-41EE195DBB26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePermutation", "AbsolutePermutation\AbsolutePermutation.csproj", "{13947151-54ED-407D-9B08-41EE195DBB26}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbsolutePermutationTests", "AbsolutePermutationTests\AbsolutePermutationTests.csproj", "{061918A8-2D74-472B-9994-9C81543373F7}"
 EndProject
