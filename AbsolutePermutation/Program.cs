@@ -8,7 +8,7 @@ namespace AbsolutePermutation
         /// <summary>
         /// Return an integer that represents the smallest lexicographically permutation, or -1 if there is none.
         /// </summary>
-        /// <returns>Int array lexicographically smallest absolute permutation, or -1</returns>
+        /// <returns>Int array with lexicographically smallest absolute permutation, or -1</returns>
         /// <param name="n">The upper bound of natural numbers to consider, inclusive</param>
         /// <param name="k">The integer difference between each element and its index</param>
         public static int[] AbsolutePermutation(int n, int k)
