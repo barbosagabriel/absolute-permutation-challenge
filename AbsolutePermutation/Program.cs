@@ -40,25 +40,34 @@ namespace AbsolutePermutation
 
         public static void Main()
         {
-            var completeResult = new StringBuilder();
-
-            Console.WriteLine("Input:");
-            var t = Convert.ToInt32(Console.ReadLine());
-
-            for (int i = 0; i < t; i++)
+            try
             {
-                string[] nk = Console.ReadLine().Split(' ');
+                var completeResult = new StringBuilder();
 
-                var n = Convert.ToInt32(nk[0]);
+                Console.WriteLine("Input:");
+                var t = Convert.ToInt32(Console.ReadLine());
 
-                var k = Convert.ToInt32(nk[1]);
+                for (int i = 0; i < t; i++)
+                {
+                    string[] nk = Console.ReadLine().Split(' ');
 
-                int[] result = AbsolutePermutation(n, k);
+                    var n = Convert.ToInt32(nk[0]);
 
-                completeResult.AppendLine(string.Join(" ", result));
+                    var k = Convert.ToInt32(nk[1]);
+
+                    int[] result = AbsolutePermutation(n, k);
+
+                    completeResult.AppendLine(string.Join(" ", result));
+                }
+
+                Console.WriteLine($"Output:\n{completeResult}");
             }
-
-            Console.WriteLine($"Output:\n{completeResult}");
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Something wrong happened.\nDetails:\n{ex.Message}");
+            }
+            
+            Console.ReadKey();
         }
     }
 }
